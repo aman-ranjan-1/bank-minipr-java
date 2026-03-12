@@ -145,9 +145,8 @@ You can enhance the project by adding:
 
 ## 👨‍💻 Author
 
-**Your Name**
 
-Student / Java Developer
+Aman Ranjan / Java Developer
 
 ---
 
