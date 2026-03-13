@@ -75,45 +75,19 @@ git clone https://github.com/your-username/mini-banking-system.git
 ### Step 2: Navigate to Project Folder
 
 ```bash
-cd mini-banking-system
+cd bank-minipr-java
 ```
 
 ### Step 3: Compile the Java Files
 
 ```bash
-javac *.java
+javac BankingSystem.java
 ```
 
 ### Step 4: Run the Program
 
 ```bash
 java BankingSystem
-```
-
----
-
-## 🧠 Example Code Concept
-
-Example of a simple deposit method:
-
-```java
-public void deposit(double amount) {
-    balance += amount;
-    System.out.println("Amount deposited successfully.");
-}
-```
-
-Example withdrawal method:
-
-```java
-public void withdraw(double amount) {
-    if(amount <= balance) {
-        balance -= amount;
-        System.out.println("Withdrawal successful.");
-    } else {
-        System.out.println("Insufficient balance.");
-    }
-}
 ```
 
 ---
@@ -134,12 +108,12 @@ This project helps in understanding:
 
 You can enhance the project by adding:
 
-* Multiple account management
-* Account number generation
-* PIN authentication
+* Multiple account management 
+* Account number generation (unique account number for multiple users )
+* PIN authentication (protected pin authentication )
 * Transaction history
-* File handling or database integration
-* Graphical User Interface (GUI)
+* File handling or database integration - a complete database for every user .
+* Graphical User Interface (GUI) - a complete desktop application for general use
 
 ---
 
