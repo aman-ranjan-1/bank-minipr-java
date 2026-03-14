@@ -11,7 +11,7 @@ public class BankAccount {
         System.out.println("Create a passkey : ");
         passkey = sc.nextInt();
         Random vnum = new Random();
-        AccountNum = 100000 + vnum.nextInt(99999);
+        AccountNum = 100000000 + vnum.nextInt(999999);
         System.out.println("Your Account Created ");
         System.out.println("Account Number : "+AccountNum+"  User - "+Username);
         AccCount++;
