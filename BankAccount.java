@@ -2,6 +2,7 @@
 import java.util.*;
 public class BankAccount {
     int AccountNum,passkey ,balance = 0; 
+    String AccountNumber;
     String Username ;  
     private static int AccCount = 0;
     Scanner sc = new Scanner(System.in);
@@ -12,8 +13,9 @@ public class BankAccount {
         passkey = sc.nextInt();
         Random vnum = new Random();
         AccountNum = 100000000 + vnum.nextInt(999999);
+        AccountNumber="ACC"+AccountNum;
         System.out.println("Your Account Created ");
-        System.out.println("Account Number : "+AccountNum+"  User - "+Username);
+        System.out.println("Account Number : "+AccountNumber+"  User - "+Username);
         AccCount++;
     }
     static void showAccCount(){
