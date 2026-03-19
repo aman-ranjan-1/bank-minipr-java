@@ -69,7 +69,7 @@ MiniBankingSystem/
 ### Step 1: Clone or Download the Project
 
 ```bash
-git clone https://github.com/your-username/mini-banking-system.git
+git clone https://github.com/aman-ranjan-1/mini-banking-system.git
 ```
 
 ### Step 2: Navigate to Project Folder
