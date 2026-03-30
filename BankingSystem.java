@@ -1,6 +1,10 @@
 //# Main program with menu-driven interface
 import java.util.*;
 public class BankingSystem {
+    public static void clearScreen() {
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+    }
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         //welcome
@@ -36,6 +40,9 @@ public class BankingSystem {
                 }
                    break;
                 case 3 :
+                clearScreen();
+                System.out.println();
+                System.out.println();
                 if(acc==1){
                     System.out.println("Enter your passkey : ");
                     int pass = in.nextInt();
@@ -46,6 +53,9 @@ public class BankingSystem {
                 }
                 break;
                 case 4 : 
+                    clearScreen();
+                    System.out.println();
+                    System.out.println();
                     if(acc==1){
                         System.out.println("Enter your passkey : ");
                         int pass = in.nextInt();
@@ -63,7 +73,9 @@ public class BankingSystem {
                    System.out.println("Invalid Choice");
                    break;
             } 
+            
         }
+        clearScreen();
         in.close();
     }
 }
